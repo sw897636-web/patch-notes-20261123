@@ -8,7 +8,7 @@ One genuine one-line patch note for a bug in real life, written for the
 [make.fun](https://make.fun/bounty/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d)
 bounty "Real-Life Patch Notes: The Comedy Changelog".
 
-> v6.0.3: fixed a bug where a 15-second song looped in your head for 6 hours with no way to kill the process.
+> v6.0.3: Fixed a 15-second song looping in your head for 6 hours: the process can now be killed by playing the full song. Known issue: this respawns it.
 
 ## How it works
 
@@ -20,7 +20,7 @@ Run it with:
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-The output `entry.txt` is a single line of 107 characters, and identical on
+The output `entry.txt` is a single line of 151 characters, and identical on
 every run.
 
 ## License
